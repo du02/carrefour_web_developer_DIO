@@ -14,7 +14,7 @@
 - [x] Construindo páginas para internet com Bootstrap
 - [x] Recriando a Interface do Netflix
 #### Modulo 3 - Javascript
-- [ ] Coleções
+- [x] Coleções
 - [ ] Debugging e Error Handling
 - [ ] Javascript Assíncrono
 - [ ] Orientação a objetos
