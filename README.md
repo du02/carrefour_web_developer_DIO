@@ -12,7 +12,7 @@
 - [x] Primeiros passos para desenvolvimento web
 - [x] Introdução a criação de websites com HTML5 e CSS3
 - [ ] Construindo páginas para internet com Bootstrap
-- [ ] Recriando a Interface do Netflix
+- [x] Recriando a Interface do Netflix
 #### Modulo 3 - Javascript
 - [ ] Coleções
 - [ ] Debugging e Error Handling
