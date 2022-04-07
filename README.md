@@ -11,7 +11,7 @@
 #### Modulo 2 - HTML/CSS
 - [x] Primeiros passos para desenvolvimento web
 - [x] Introdução a criação de websites com HTML5 e CSS3
-- [ ] Construindo páginas para internet com Bootstrap
+- [x] Construindo páginas para internet com Bootstrap
 - [x] Recriando a Interface do Netflix
 #### Modulo 3 - Javascript
 - [ ] Coleções
