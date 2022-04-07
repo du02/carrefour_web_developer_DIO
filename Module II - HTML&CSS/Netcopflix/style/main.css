@@ -1,0 +1,172 @@
+/**
+*   Var Css
+*/
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+    --cinzaNav: #aaa;
+}
+
+/**
+*   Header
+*/
+body {
+    background-color: var(--preta);
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;            /* alinhamento vertical */
+    align-items: center;        
+    justify-content: space-between; /* alinhamente horizontal */
+
+    height: 80px;
+}
+
+header .logo {
+    width: 170px;
+    margin-left: 50px;    
+}
+
+header nav {
+    margin-right: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cinzaNav);
+    margin-right: 10px;
+
+    transition: .3s;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/**
+*   Main
+*/
+.filme-principal {
+    font-size: 16px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, .50), 
+        rgba(0, 0, 0, .50) 100%), 
+        url('../img/capa-mando.jpg');           /* Adicionando img */
+    background-size: cover;                     /* Ajustando img no tamanho proposto */
+    height: 500px;                              /* tamnho proposto */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.filme-principal .titulo {
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: var(--vermelho);
+    color: #fff;
+}
+
+/**
+*   Main warpper
+*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    margin-top: 10px;
+}
+
+.warpper {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.warpper p {
+    text-align: justify;
+}
+
+/**
+* Footer
+*/
+
+.warpper-footer {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 50px;
+}
+
+.titulo-footer {
+    
+}
+
+.warpper-footer .titulo-footer {
+    margin-bottom: 30px;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-footer .secao {
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.info-footer .secao a{
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.info-footer .secao a:hover{
+    font-size: 14px;
+    color: #fff;
+}
+
+.local .botao-idioma{
+    height: 40px;
+    width: 130px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 8px;
+}
+
+.local .botao-idioma select option{
+    background: none;
+} 
